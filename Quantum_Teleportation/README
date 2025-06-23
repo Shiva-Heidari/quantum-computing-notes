@@ -23,7 +23,7 @@ This repository demonstrates the **quantum teleportation protocol** using IBM's 
 - Practice using `Statevector`, `DensityMatrix`, and Qiskit’s `NoiseModel`
 
 
-## 🛠 Technologies Used
+## Technologies Used
 
 | Tool      | Purpose                         |
 |-----------|----------------------------------|
@@ -47,7 +47,7 @@ This repository demonstrates the **quantum teleportation protocol** using IBM's 
 ## Sample Output
 
 <details>
-<summary><strong>📌 Final Results: Bloch Sphere Interpretation</strong></summary>
+<summary><strong> Final Results: Bloch Sphere Interpretation</strong></summary>
 
 - Input qubit (Q0): Pure state, vector on Bloch sphere surface  
 -  Output qubit (Q2): Mixed state, vector shortened toward \\( |0\rangle \\)  
