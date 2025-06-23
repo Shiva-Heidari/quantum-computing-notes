@@ -1,22 +1,20 @@
-# 🧠 Quantum Teleportation with Qiskit — Ideal & Noisy Protocols
+#  Quantum Teleportation with Qiskit — Ideal & Noisy Protocols
 
 This repository demonstrates the **quantum teleportation protocol** using IBM's [Qiskit](https://qiskit.org/), including both **ideal (noiseless)** and **realistic (noisy)** implementations. It shows how a quantum state can be transmitted from Alice to Bob without physically sending the qubit — using **entanglement**, **measurement**, and **classical communication**.
 
----
 
-## 📁 Repository Contents
+## Repository Contents
 
 - `Quantum_Teleportation/QuantumTeleportation_Qiskit.ipynb`  
   A complete notebook that covers:
-  - ✅ Ideal teleportation using pure states and `Statevector`
-  - ⚠️ Noisy teleportation using amplitude damping noise models
-  - 🧮 Fidelity analysis using `state_fidelity`
-  - 🎯 Bloch sphere visualizations
-  - 🔬 Physical interpretation of decoherence effects
+  - Ideal teleportation using pure states and `Statevector`
+  - Noisy teleportation using amplitude damping noise models
+  - Fidelity analysis using `state_fidelity`
+  - Bloch sphere visualizations
+  - Physical interpretation of decoherence effects
 
----
 
-## 🎯 Objectives
+##  Objectives
 
 - Implement the quantum teleportation protocol step-by-step
 - Compare ideal and noisy results
@@ -24,7 +22,6 @@ This repository demonstrates the **quantum teleportation protocol** using IBM's 
 - Visualize state degradation via Bloch spheres
 - Practice using `Statevector`, `DensityMatrix`, and Qiskit’s `NoiseModel`
 
----
 
 ## 🛠 Technologies Used
 
@@ -35,50 +32,45 @@ This repository demonstrates the **quantum teleportation protocol** using IBM's 
 | Statevector / DensityMatrix | Track quantum states pre/post teleportation |
 | matplotlib | Visualize fidelity and Bloch vectors |
 
----
 
-## 🧪 What’s Inside
+##  What’s Inside
 
 | Section | Description |
 |--------|-------------|
-| ✅ Ideal Teleportation | Uses `Statevector` to confirm fidelity = 1.0 |
-| ⚠️ Noisy Teleportation | Adds amplitude damping noise (`γ`) to gates |
-| 🔍 Fidelity Calculation | Compares input and output states numerically |
-| 🌀 Bloch Visualization | Shows geometric distortion of quantum states |
-| 🧠 Physical Insight | Discusses decoherence, Kraus ops, and purity |
+| Ideal Teleportation | Uses `Statevector` to confirm fidelity = 1.0 |
+| Noisy Teleportation | Adds amplitude damping noise (`γ`) to gates |
+| Fidelity Calculation | Compares input and output states numerically |
+| Bloch Visualization | Shows geometric distortion of quantum states |
+| Physical Insight | Discusses decoherence, Kraus ops, and purity |
 
----
 
-## 🔬 Sample Output
+## Sample Output
 
 <details>
 <summary><strong>📌 Final Results: Bloch Sphere Interpretation</strong></summary>
 
-- ✅ Input qubit (Q0): Pure state, vector on Bloch sphere surface  
-- ⚠️ Output qubit (Q2): Mixed state, vector shortened toward \\( |0\rangle \\)  
-- 💡 Amplitude damping simulates energy loss (T1 decay)  
-- 🔍 Fidelity drops: \\( F < 1 \\), coherence is partially destroyed
+- Input qubit (Q0): Pure state, vector on Bloch sphere surface  
+-  Output qubit (Q2): Mixed state, vector shortened toward \\( |0\rangle \\)  
+- Amplitude damping simulates energy loss (T1 decay)  
+- Fidelity drops: \\( F < 1 \\), coherence is partially destroyed
 
 </details>
 
----
 
-## 🚀 Future Extensions
+## Future Extensions
 
 - Add more noise models (e.g. depolarizing, phase damping)
 - Compare performance under noisy vs. ideal CNOTs
 - Introduce classical control with `if_test()` gates
 - Run on real IBM hardware (with real noise!)
 
----
 
-## 👩‍💻 Author
+## Author
 
 **Shiva Heidari**  
 Physicist | Quantum Researcher | Qiskit Enthusiast  
 📍 GitHub: [@Shiva-Heidari](https://github.com/Shiva-Heidari)
 
----
 
 ## ⭐️ If you found this useful…
 
