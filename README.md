@@ -1,31 +1,57 @@
-# Quantum Computing Notes with Qiskit
+# 🧠 Quantum Computing Notes with Qiskit
 
-This repository documents my hands-on learning journey through quantum computing using [Qiskit](https://qiskit.org/) and Python, following the book *Learn Quantum Computing with Python and Qiskit*.
+This repository is a collection of hands-on Jupyter notebooks documenting my learning journey in quantum computing using [Qiskit](https://qiskit.org/) and Python. It includes step-by-step explorations of quantum gates, entanglement, quantum circuits, and pulse-level control.
 
-Each notebook contains working code, visualizations, and conceptual explanations of quantum circuits, gates, entanglement, measurement, and more.
-
-## 🔬 Notebooks
-
-| Notebook | Description |
-|----------|-------------|
-| [Bloch.ipynb](./Bloch.ipynb) | Visualizing qubit superposition using Hadamard gates and the Bloch sphere |
-
-## 🚀 Topics Covered (in progress)
-
-- Bloch sphere visualization
-- Superposition using Hadamard gate
-- Entanglement and Bell states
-- Measurement and simulation using `qasm_simulator`
-- Quantum circuit drawing and histogram analysis
-- (More to come...)
-
-## 🧠 Author
-
-**Shiva Heidari**  
-Postdoctoral researcher in quantum condensed matter and quantum computing  
-📍 Based in Upstate NY | 🧪 Exploring Qiskit + IBM Q
+I’m using this repository to deepen my understanding of quantum information and to support my transition from academic research into quantum industry roles.
 
 ---
 
-Stay tuned for more notebooks as I explore teleportation, quantum algorithms, and real quantum hardware backends!
+## 📁 Topics Covered
 
+### 🔹 Basic Gates
+Fundamentals of quantum gates, state visualization, and custom gate building.
+- [Bell_State.ipynb](./basic_gates/Bell_State.ipynb)
+- [Bloch.ipynb](./basic_gates/Bloch.ipynb)
+- [Toffoli-Gate.ipynb](./basic_gates/Toffoli-Gate.ipynb)
+- [composite_gate.ipynb](./basic_gates/composite_gate.ipynb)
+
+---
+
+### 🔹 Entanglement
+A deeper look into quantum entanglement and state correlations.
+- [Entanglement.ipynb](./entanglement/Entanglement.ipynb)
+
+---
+
+### 🔹 Quantum Circuits
+Qiskit-based circuit design, register creation, and random circuit generation.
+- [Q-Registers.ipynb](./circuits/Q-Registers.ipynb)
+- [Random_Circuit.ipynb](./circuits/Random_Circuit.ipynb)
+
+---
+
+### 🔹 Pulse Programming
+Exploration of pulse-level programming using Qiskit Pulse.
+- [Qiskit_Pulses.ipynb](./pulse_programming/Qiskit_Pulses.ipynb)
+
+---
+
+## 🚀 Goals
+
+- Build fluency in Qiskit and IBM Quantum systems
+- Explore fundamental and advanced quantum operations through code
+- Showcase practical knowledge of quantum computing to prospective employers
+
+---
+
+## 🧑‍💻 Author
+
+**Shiva Heidari**  
+PhD physicist focused on quantum devices, coherence, and simulation  
+[LinkedIn](https://www.linkedin.com/in/shivaheidari) • [Email](mailto:heidarishivaa@gmail.com)
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE) (optional).
